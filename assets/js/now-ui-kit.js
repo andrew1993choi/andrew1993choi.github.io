@@ -113,6 +113,7 @@ nowuiKit = {
     },
 
     checkScrollForTransparentNavbar: debounce(function() {
+        console.log("HERE I GO")
             if($(document).scrollTop() > scroll_distance ) {
                 if(transparent) {
                     transparent = false;
